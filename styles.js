@@ -1,24 +1,3 @@
-
-
-// 	elements = { 
-// 	window: function(){
-// 		return window;
-// 	},
-// 	wrapper: function(){
-// 		var wrapper = document.getElementById('wrapper');
-// 		return wrapper;
-// 	}
-// }
-
-// function resizeToWindow(element){
-// 	//element.styles.height = ;
-// 	console.log(element);
-// 	console.log(document.getElementById('wrapper'));
-// }
-
-let wrapper = document.getElementById('wrapper');
-let input = document.getElementById('shiritori-input');
-
 window.onload = function() {
 	resizeWrapper();
 	resizeInput();
@@ -35,7 +14,7 @@ function resizeWrapper(){
 }
 
 function resizeInput(){
-	centerChildWithinParent(input,wrapper);
+	centerChildWithinParent(sInput,wrapper);
 }
 
 function centerChildWithinParent(childElement,parentElement){
